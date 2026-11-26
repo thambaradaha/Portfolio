@@ -52,6 +52,7 @@ ul{margin:8px 0 0;padding-left:20px}li{margin-bottom:5px}
 .skill p{margin:0;color:var(--muted);font-size:15px}
 .certs li{list-style:none;padding:8px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px}
 .certs{padding:0}.certs span{color:var(--muted);font-size:14px;white-space:nowrap}
+details{margin-top:14px}summary{cursor:pointer;color:var(--accent);font-weight:600;padding:6px 0}
 footer{padding:36px 0 48px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
 @media(max-width:640px){.job{grid-template-columns:1fr}header{padding-top:44px}}
 </style>
@@ -60,7 +61,7 @@ footer{padding:36px 0 48px;color:var(--muted);font-size:14px;border-top:1px soli
 <nav><div class="wrap"><b>T. Dahanayaka</b><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#certs">Certifications</a><a href="#contact">Contact</a></div></nav>
 
 <header><div class="wrap">
-<div class="tag">Mechanical &amp; Industrial Engineer</div>
+<div class="tag">Mechanical &amp; Industrial Engineer · AMIE (SL)</div>
 <h1>Thambara Dahanayaka</h1>
 <p class="lead">I keep filling lines running and make them run better, using root cause analysis, preventive maintenance and data to turn breakdowns into reliable, repeatable performance.</p>
 <div class="btns"><a class="btn p" href="#contact">Get in touch</a><a class="btn" href="#projects">See my work</a></div>
@@ -68,7 +69,7 @@ footer{padding:36px 0 48px;color:var(--muted);font-size:14px;border-top:1px soli
 <div class="stat"><strong>85%+</strong><span>monthly mechanical efficiency on filling lines</span></div>
 <div class="stat"><strong>60 → 90%</strong><span>OEE improvement contribution at Swisstek</span></div>
 <div class="stat"><strong>10+</strong><span>aluminium components modelled in 3D CAD</span></div>
-<div class="stat"><strong>7</strong><span>certifications incl. Lean Six Sigma &amp; CAPM</span></div>
+<div class="stat"><strong>18</strong><span>certifications incl. TPM, SCADA, PLC &amp; CAPM</span></div>
 </div>
 </div></header>
 
@@ -81,7 +82,7 @@ footer{padding:36px 0 48px;color:var(--muted);font-size:14px;border-top:1px soli
 <section id="experience"><div class="wrap">
 <h2>Experience</h2>
 <div class="job"><div class="when">Oct 2025 – Present</div><div>
-<h3>Mechanical Engineer</h3><div class="co">Ceylon Beverage International (Pvt) Ltd</div>
+<h3>Mechanical Engineer</h3><div class="co">Ceylon Beverage International (Pvt) Ltd · Horana</div>
 <ul>
 <li>Maintained mechanical efficiency above 85% monthly on can and bottle filling lines through proactive troubleshooting and root cause analysis.</li>
 <li>Executed preventive and breakdown maintenance on line machinery and utility systems to minimise unplanned downtime.</li>
@@ -89,7 +90,7 @@ footer{padding:36px 0 48px;color:var(--muted);font-size:14px;border-top:1px soli
 <li>Analysed performance data to detect inefficiencies and drive corrective actions that improved productivity.</li>
 </ul></div></div>
 <div class="job"><div class="when">Jul – Oct 2024</div><div>
-<h3>Trainee Manufacturing &amp; Industrial Engineer</h3><div class="co">Ansell Lanka (Pvt) Ltd</div>
+<h3>Trainee Manufacturing &amp; Industrial Engineer</h3><div class="co">Ansell Lanka (Pvt) Ltd · Biyagama</div>
 <ul>
 <li>Designed and prototyped a PLC-based floatless level switch system with Omron components, reducing manual level monitoring.</li>
 <li>Built a proximity-sensor counting system with ladder logic to automate manual porcelain former counting.</li>
@@ -107,10 +108,13 @@ footer{padding:36px 0 48px;color:var(--muted);font-size:14px;border-top:1px soli
 <section id="projects"><div class="wrap">
 <h2>Projects &amp; Research</h2>
 <div class="grid">
+<div class="card"><div class="yr">May 2025 · Reverse engineering project</div><h3>Digital Reconstruction &amp; Mold Design of a Rubber Foot</h3>
+<p>Captured complex geometry with EinScan 3D scanning, modelled the part and its mold in SolidWorks and Fusion 360 with manufacturability in mind, and designed a functional rubber mold for prototyping.</p>
+<div class="chips"><span class="chip">3D scanning</span><span class="chip">Mold design</span><span class="chip">SolidWorks</span><span class="chip">Fusion 360</span></div></div>
 <div class="card"><div class="yr">2025 · Group project</div><h3>Quality Defects Across Apparel Production Stages</h3>
 <p>Digitised manual quality tracking into a data-driven system. Used ANOVA, Tukey’s HSD and Chi-Square tests in Python to find defect-prone styles and operations, and built live Power BI dashboards for defect and rework trends.</p>
 <div class="chips"><span class="chip">Python</span><span class="chip">Power BI</span><span class="chip">Statistics</span></div></div>
-<div class="card"><div class="yr">2025 · Final-year research</div><h3>Additive &amp; Casting Integration for Aluminium</h3>
+<div class="card"><div class="yr">Feb – Apr 2025 · Project</div><h3>Additive &amp; Casting Integration for Aluminium</h3>
 <p>Combined FDM 3D-printed patterns with sand casting to make aluminium parts, compared dimensional accuracy with conventional patterns, and showed a cost- and time-efficient route for low-volume prototyping.</p>
 <div class="chips"><span class="chip">3D printing</span><span class="chip">Casting</span><span class="chip">SolidWorks</span></div></div>
 <div class="card"><div class="yr">2024 · Ansell Lanka</div><h3>PLC Automation Prototypes</h3>
@@ -126,25 +130,39 @@ footer{padding:36px 0 48px;color:var(--muted);font-size:14px;border-top:1px soli
 <section id="skills"><div class="wrap">
 <h2>Skills</h2>
 <div class="grid">
-<div class="skill card"><h3>Maintenance &amp; Reliability</h3><p>Preventive &amp; breakdown maintenance, root cause analysis, SAP spares control, pumps, valves, RTDs, pneumatics</p></div>
+<div class="skill card"><h3>Maintenance &amp; Reliability</h3><p>Preventive &amp; breakdown maintenance, root cause analysis, TPM, SAP spares control, pumps, valves, RTDs, pneumatics</p></div>
 <div class="skill card"><h3>Process Improvement</h3><p>OEE improvement, time &amp; motion study, SOP development, APS routines, Kaizen, DMAIC, Six Sigma Yellow Belt</p></div>
 <div class="skill card"><h3>Data &amp; Reporting</h3><p>Python, R, MATLAB, Minitab, Excel, Power BI, ANOVA, Chi-Square, Tukey’s HSD</p></div>
-<div class="skill card"><h3>Automation</h3><p>Omron PLC, HMI, ladder logic, Arduino</p></div>
-<div class="skill card"><h3>Design &amp; Tools</h3><p>SolidWorks, Fusion 360, AutoCAD, KeyShot, Simio, CAPM-level project management</p></div>
+<div class="skill card"><h3>Automation</h3><p>Omron PLC, HMI, SCADA, ladder logic, Arduino</p></div>
+<div class="skill card"><h3>Design &amp; Tools</h3><p>SolidWorks, Fusion 360, AutoCAD, KeyShot, Simio, 3D scanning, mold design, CAPM-level project management</p></div>
 </div>
 </div></section>
 
 <section id="certs"><div class="wrap">
 <h2>Certifications</h2>
 <ul class="certs">
-<li>PLC Systems: Design, Maintenance &amp; Troubleshooting · University of Moratuwa<span>2026</span></li>
-<li>Certified Associate in Project Management (CAPM)® · PMI via LinkedIn Learning<span>2025</span></li>
-<li>Learning SAP Production Planning · LinkedIn Learning<span>2025</span></li>
-<li>Lean Six Sigma Yellow Belt · The Lean Six Sigma Company<span>2024</span></li>
-<li>Root Cause Analysis · Udemy<span>2024</span></li>
-<li>Additive Manufacturing · The Open University<span>2024</span></li>
-<li>Siemens Mobility Operations Industrial Engineer Job Simulation · Forage<span>2024</span></li>
+<li>Operations Foundations: Total Productive Maintenance (TPM) · LinkedIn<span>Nov 2026</span></li>
+<li>Designing, Maintaining &amp; Troubleshooting of Automated Systems Based on PLCs · University of Moratuwa<span>Jun 2026</span></li>
+<li>Certified Associate in Project Management (CAPM)® · LinkedIn Learning<span>Sep 2025</span></li>
+<li>Introduction to PLC and Industrial Automation · LinkedIn Learning<span>Sep 2025</span></li>
+<li>Learning SAP Production Planning · LinkedIn Learning<span>Sep 2025</span></li>
+<li>Learning SCADA: Collect, Analyze, and Visualize Data for Industrial Automation · LinkedIn Learning<span>Sep 2025</span></li>
+<li>Operational Excellence Foundations · LinkedIn Learning<span>Sep 2025</span></li>
 </ul>
+<details><summary>Show 11 earlier certifications (2024)</summary>
+<ul class="certs">
+<li>Lean Six Sigma Yellow Belt · The Lean Six Sigma Company<span>Jun 2024</span></li>
+<li>Lean Six Sigma White Belt · Six Sigma Online · Aveta Business Institute<span>May 2024</span></li>
+<li>Root Cause Analysis · Udemy<span>May 2024</span></li>
+<li>Additive Manufacturing · The Open University<span>May 2024</span></li>
+<li>BUS607: Data-Driven Decision-Making · Saylor Academy<span>May 2024</span></li>
+<li>ISO 14001: Environmental Management Systems (EMS) · Udemy<span>May 2024</span></li>
+<li>Professional Diploma in Business Project Management · Udemy<span>May 2024</span></li>
+<li>SOLIDWORKS: Turn 2D Sketches Into 3D Models · Tutorialspoint<span>May 2024</span></li>
+<li>Sustainable Supply Chain &amp; Supply Chain Agility · Udemy<span>May 2024</span></li>
+<li>Transport and Sustainability · The Open University<span>May 2024</span></li>
+<li>Siemens Mobility Operations Industrial Engineer Job Simulation · Forage<span>May 2024</span></li>
+</ul></details>
 </div></section>
 
 <section id="contact"><div class="wrap">
@@ -152,7 +170,7 @@ footer{padding:36px 0 48px;color:var(--muted);font-size:14px;border-top:1px soli
 <p>Open to conversations about reliability, line performance and process improvement roles.</p>
 <div class="btns">
 <a class="btn p" href="mailto:thambara04@gmail.com">thambara04@gmail.com</a>
-<a class="btn" href="https://www.linkedin.com/in/thambara-dahanayaka-b3135918a/">LinkedIn</a>
+<a class="btn" href="https://linkedin.com/in/thambara-dahanayaka">LinkedIn</a>
 <a class="btn" href="https://github.com/thambaradahanayaka">GitHub</a>
 </div>
 </div></section>
